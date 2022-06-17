@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/cd43afad-d59a-4a4f-915b-57908165f403/resourceGroups/db/providers/microsoft.insights/components/mywebapp007</ApplicationInsightsResourceId>
+    <UserSecretsId>2b13407d-22c0-4e2c-b1cd-6731d6b91712</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
